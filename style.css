@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Parisienne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+
+    background-color: #f0f8ff;
+
+    overflow-x: hidden;
+
+
+}
+
+
+.header {
+
+    background-color: #7ec8e3;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+
+}
+
+.link-header {
+
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 20px;
+    border: none;
+    font-family: "Parisienne", cursive;
+    width: 340px;
+    height: 60px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.botao-kamilly {
+
+    background: white;
+    color: #7ec8e3;
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 20px;
+    border: none;
+    font-family: "Parisienne", cursive;
+    width: 340px;
+    height: 60px;
+    cursor: pointer;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+.seta-topo {
+
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 45px;
+    height: 45px;
+    backdrop-filter: blur(5px);
+
+    text-decoration: none;
+    font-size: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+    z-index: 1000;
+}
+
+.seta-topo:hover {
+
+    transform: scale(1.1);
+}
+
+
+.video-topo {
+
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.video-kamilly {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.caixa-blue-sky {
+
+    text-align: center;
+    margin: 40px auto;
+    padding: 40px 20px;
+    justify-content: center;
+
+}
+
+.logo {
+
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+
+}
+
+.titulo-blue-sky {
+
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: "Parisienne", cursive;
+    text-shadow: 2px 2px 2px #7ec8e3;
+    text-align: center;
+
+
+}
+
+.primeiro-paragrafo {
+
+    padding: 20px;
+    background-color: #7ec8e3;
+    border-radius: 5px;
+    font-size: 29px;
+    color: black;
+    margin-top: 25px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px white;
+
+
+}
+
+.caixa-modalidades {
+
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    width: max-content;
+    white-space: nowrap;
+    animation: scroll 35s linear infinite;
+    overflow: visible
+}
+
+.caixa-modalidades:hover {
+
+    animation-play-state: paused;
+
+}
+
+.titulo-modalidades {
+
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+    font-family: "Parisienne", cursive;
+    text-shadow: 2px 2px 2px #7ec8e3;
+
+}
+
+.fotos-modalidades {
+
+    margin-top: 20px;
+    width: fit-content;
+    height: 620px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+
+}
+
+.fotos-modalidades:hover {
+
+    transform: scale(1.05) translateY(-10px);
+    z-index: 10;
+    position: relative;
+
+
+}
+
+@keyframes scroll {
+
+    0% {
+        transform: translateX(100);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+
+}
+
+.Conheca-kamilly {
+
+    text-align: center;
+    margin: 40px auto;
+    padding: 40px 20px;
+    justify-content: center;
+
+}
+
+.titulo-conheça-kamilly,
+h2 {
+
+
+    text-align: center;
+    margin-top: 90px;
+    font-size: 50px;
+    font-family: "Parisienne", cursive;
+    text-shadow: 2px 2px 2px #7ec8e3;
+
+}
+
+.caixa-fotos-quem-e-kamilly {
+
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    overflow-x: hidden;
+    width: max-content;
+    white-space: nowrap;
+    animation: scroll 30s linear infinite;
+    overflow: visible
+}
+
+
+.fotos-quem-e-kamilly {
+
+    width: 500;
+    height: 600px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 50px;
+
+}
+
+.paragrafos-conheça-kamilly {
+
+    padding: 20px;
+    background-color: #7ec8e3;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 31px;
+    color: black;
+    margin-top: 25px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px white;
+
+}
+
+.caixa-titulo-sobre-nos {
+
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+    font-family: "Parisienne", cursive;
+    text-shadow: 2px 2px 2px #7ec8e3;
+
+}
+
+.caixa-sobre-nos {
+
+    display: flex;
+    overflow: hidden;
+    width: max-content;
+    white-space: nowrap;
+    animation: scroll 35s linear infinite;
+    overflow: visible
+}
+
+.caixa-sobre-nos:hover {
+
+    animation-play-state: paused;
+
+}
+
+.fotos-sobre-nos {
+
+    width: 400px;
+    height: 605px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-left: 60px;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+.fotos-sobre-nos:hover {
+
+    transform: scale(1.05) translateY(-10px);
+    z-index: 10;
+    position: relative;
+
+}
+
+.logo-Whatsapp {
+
+ display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+
+}
+
+.logo-Whatsapp:hover {
+
+    transform: scale(1.1);
+
+}
+
+
+.conteudo-rodape {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    background-color: #7ec8e3;
+    padding: 50px;
+
+}
+
+
+
+.caixa-contatos-enderecos-redes-sociais-rodape {
+
+    flex: 1;
+    min-width: 300px;
+    font-size: 20px;
+    padding: 50px;
+    gap: 20px;
+
+
+}
+
+.caixa-contatos-enderecos-redes-sociais-rodape a {
+
+    text-decoration: none;
+    color: black;
+}
+
+.caixa-contatos-enderecos-redes-sociais-rodape a:hover {
+    text-decoration: underline;
+
+
+}
+
+
+.mapa-rodape {
+
+    flex: 1;
+    min-width: 350px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+
+
+.direitos-rodape {
+
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: black;
+
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+
+html, body {
+    overflow-x: hidden;
+ }
+
+
+    .video-topo {
+        height: 90vh;
+
+    }
+
+    .header {
+        display: none;
+
+    }
+
+    .logo {
+        width: 500px;
+
+    }
+
+    .titulo-blue-sky,
+    h2 {
+
+        font-size: 38px;
+        margin-top: 50px;
+
+    }
+
+    .primeiro-paragrafo {
+        font-size: 25px;
+        text-align: center;
+
+    }
+
+    .caixa-modalidades {
+
+        width: max-content;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    .fotos-modalidades {
+
+        display: flex;
+        width: max-content;
+        
+    }
+    
+    .fotos-modalidades img {
+
+        flex-shrink: 0;       
+
+ }
+
+    .titulo-conheça-kamilly {
+
+        font-size: 35px;
+    }
+
+    .paragrafos-conheça-kamilly {
+
+        font-size: 25px;
+        text-align: center;
+
+    }
+
+    
+    .caixa-titulo-sobre-nos {
+
+        font-size: 38px;
+        margin-top: 50px;
+    }
+
+.caixa-contatos-enderecos-redes-sociais-rodape {
+
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        
+
+    }
+
+    .direitos-rodape {
+
+        font-size: 15px;
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px;
+        line-height: 1.5;
+
+
+    }
+
+}
