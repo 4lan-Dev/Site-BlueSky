@@ -162,7 +162,7 @@ html {
 .caixa-modalidades {
 
     margin-top: 40px;
-display: flex;
+    display: flex;
     gap: 20px;
     overflow-x: hidden;
     width: max-content;
@@ -242,7 +242,7 @@ h2 {
 
 .caixa-fotos-quem-e-kamilly {
 
- display: flex;
+    display: flex;
     gap: 20px;
     overflow-x: hidden;
     width: max-content;
@@ -252,7 +252,7 @@ h2 {
 
 .fotos-quem-e-kamilly {
 
-   margin-top: 40px;
+    margin-top: 40px;
     width: 500;
     height: 600px;
     flex-shrink: 0;
@@ -290,7 +290,7 @@ h2 {
     display: flex;
     gap: 20px;
     overflow-x: hidden;
-     width: max-content;
+    width: max-content;
     animation: scroll 20s linear infinite;
 }
 
@@ -324,7 +324,7 @@ h2 {
 
 .logo-Whatsapp {
 
- display: block;
+    display: block;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -380,17 +380,17 @@ h2 {
 
 .mapa-rodape {
 
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 30px auto 30px;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px auto 30px;
+
 }
 
 .mapa-rodape iframe {
 
     width: 100%;
-max-width: 350px;
+    max-width: 350px;
 
 }
 
@@ -401,7 +401,7 @@ max-width: 350px;
     margin-top: 20px;
     font-size: 18px;
     color: black;
-padding: 20px;
+    padding: 20px;
 }
 
 
@@ -410,9 +410,10 @@ padding: 20px;
 
 @media screen and (max-width: 768px) {
 
-html, body {
-    overflow-x: hidden;
- }
+    html,
+    body {
+        overflow-x: hidden;
+    }
 
 
     .video-topo {
@@ -451,21 +452,23 @@ html, body {
         position: relative;
     }
 
-    .fotos-modalidades, .fotos-quem-e-kamilly, .fotos-sobre-nos {
+    .fotos-modalidades,
+    .fotos-quem-e-kamilly,
+    .fotos-sobre-nos {
 
         display: flex;
         width: max-content;
-        
+
     }
 
-    
+
     .fotos-modalidades img {
 
         flex-shrink: 0;
-        height: auto;
-        max-width: 100%;       
+        height: 100%;
+        max-width: 100%;
 
- }
+    }
 
     .titulo-conheça-kamilly {
 
@@ -479,20 +482,20 @@ html, body {
 
     }
 
-    
+
     .caixa-titulo-sobre-nos {
 
         font-size: 38px;
         margin-top: 50px;
     }
 
-.caixa-contatos-enderecos-redes-sociais-rodape {
+    .caixa-contatos-enderecos-redes-sociais-rodape {
 
         padding: 20px;
         font-size: 20px;
         text-align: center;
         align-items: center;
-        
+
 
     }
 
