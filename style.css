@@ -10,14 +10,11 @@
 
 body {
 
-
     background-color: #f0f8ff;
-
     overflow-x: hidden;
 
 
 }
-
 
 .header {
 
@@ -28,7 +25,6 @@ body {
     align-items: center;
     gap: 20px;
     padding: 20px;
-
 
 }
 
@@ -78,7 +74,6 @@ html {
     width: 45px;
     height: 45px;
     backdrop-filter: blur(5px);
-
     text-decoration: none;
     font-size: 50px;
     border-radius: 50%;
@@ -93,7 +88,6 @@ html {
 
     transform: scale(1.1);
 }
-
 
 .video-topo {
 
@@ -112,7 +106,6 @@ html {
     width: 100%;
     height: 100%;
     object-fit: cover;
-
 
 }
 
@@ -204,7 +197,6 @@ html {
     z-index: 10;
     position: relative;
 
-
 }
 
 @keyframes scroll {
@@ -247,8 +239,8 @@ h2 {
     overflow-x: hidden;
     width: max-content;
     animation: scroll 35s linear infinite;
-}
 
+}
 
 .fotos-quem-e-kamilly {
 
@@ -338,7 +330,6 @@ h2 {
 
 }
 
-
 .conteudo-rodape {
 
     display: flex;
@@ -352,8 +343,6 @@ h2 {
 
 }
 
-
-
 .caixa-contatos-enderecos-redes-sociais-rodape {
 
     flex: 1;
@@ -361,7 +350,6 @@ h2 {
     font-size: 20px;
     padding: 50px;
     gap: 20px;
-
 
 }
 
@@ -374,9 +362,7 @@ h2 {
 .caixa-contatos-enderecos-redes-sociais-rodape a:hover {
     text-decoration: underline;
 
-
 }
-
 
 .mapa-rodape {
 
@@ -394,7 +380,6 @@ h2 {
 
 }
 
-
 .direitos-rodape {
 
     text-align: center;
@@ -403,9 +388,6 @@ h2 {
     color: black;
     padding: 20px;
 }
-
-
-
 
 
 @media screen and (max-width: 768px) {
@@ -418,7 +400,6 @@ h2 {
     .seta-topo {
         display: none;
     }
-
 
     .video-topo {
         height: 90vh;
@@ -456,23 +437,27 @@ h2 {
         position: relative;
     }
 
-
-    .fotos-quem-e-kamilly,
-    .fotos-sobre-nos {
-
-        display: flex;
-        width: max-content;
-
-    }
-
     .fotos-modalidades {
 
-        width: 501x;
-        height: 600px;
-        
+        width: 500x;
+        height: 650px;
+
     }
 
+    .fotos-quem-e-kamilly {
 
+        width: 535px;
+        height: 600px;
+
+    }
+
+    .fotos-sobre-nos {
+
+        margin-top: 40px;
+        width: 500x;
+        height: 600px;
+
+    }
 
     .titulo-conheça-kamilly {
 
@@ -485,7 +470,6 @@ h2 {
         text-align: center;
 
     }
-
 
     .caixa-titulo-sobre-nos {
 
@@ -500,7 +484,6 @@ h2 {
         text-align: center;
         align-items: center;
 
-
     }
 
     .direitos-rodape {
@@ -510,7 +493,6 @@ h2 {
         margin-top: 10px;
         padding: 10px;
         line-height: 1.5;
-
 
     }
 
