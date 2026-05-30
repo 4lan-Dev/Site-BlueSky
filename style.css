@@ -415,6 +415,10 @@ h2 {
         overflow-x: hidden;
     }
 
+    .seta-topo {
+        display: none;
+    }
+
 
     .video-topo {
         height: 90vh;
@@ -452,13 +456,20 @@ h2 {
         position: relative;
     }
 
-    .fotos-modalidades,
+
     .fotos-quem-e-kamilly,
     .fotos-sobre-nos {
 
         display: flex;
         width: max-content;
 
+    }
+
+    .fotos-modalidades {
+
+        width: 500x;
+        height: 600px;
+        
     }
 
 
