@@ -161,13 +161,12 @@ html {
 
 .caixa-modalidades {
 
+    margin-top: 40px;
     display: flex;
     gap: 20px;
-    overflow: hidden;
+    overflow-x: hidden;
     width: max-content;
-    white-space: nowrap;
     animation: scroll 35s linear infinite;
-    overflow: visible
 }
 
 .caixa-modalidades:hover {
@@ -188,14 +187,14 @@ html {
 
 .fotos-modalidades {
 
-    margin-top: 20px;
-    width: fit-content;
-    height: 620px;
+    width: 400px;
+    height: 605px;
     flex-shrink: 0;
     object-fit: cover;
     border-radius: 12px;
+    margin-left: 60px;
     cursor: pointer;
-    transition: transform 0.4s ease;
+    overflow: hidden;
 
 }
 
@@ -211,7 +210,7 @@ html {
 @keyframes scroll {
 
     0% {
-        transform: translateX(100);
+        transform: translateX(0);
     }
 
     100% {
@@ -243,20 +242,17 @@ h2 {
 
 .caixa-fotos-quem-e-kamilly {
 
-    margin-top: 20px;
-    align-items: center;
     display: flex;
     gap: 20px;
     overflow-x: hidden;
     width: max-content;
-    white-space: nowrap;
-    animation: scroll 30s linear infinite;
-    overflow: visible
+    animation: scroll 35s linear infinite;
 }
 
 
 .fotos-quem-e-kamilly {
 
+    margin-top: 40px;
     width: 500;
     height: 600px;
     flex-shrink: 0;
@@ -292,12 +288,12 @@ h2 {
 .caixa-sobre-nos {
 
     display: flex;
-    overflow: hidden;
+    gap: 20px;
+    overflow-x: hidden;
     width: max-content;
-    white-space: nowrap;
-    animation: scroll 35s linear infinite;
-    overflow: visible
+    animation: scroll 20s linear infinite;
 }
+
 
 .caixa-sobre-nos:hover {
 
@@ -328,7 +324,7 @@ h2 {
 
 .logo-Whatsapp {
 
- display: block;
+    display: block;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -384,12 +380,19 @@ h2 {
 
 .mapa-rodape {
 
-    flex: 1;
-    min-width: 350px;
-    overflow: hidden;
-    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px auto 30px;
+
 }
 
+.mapa-rodape iframe {
+
+    width: 100%;
+    max-width: 350px;
+
+}
 
 
 .direitos-rodape {
@@ -398,18 +401,23 @@ h2 {
     margin-top: 20px;
     font-size: 18px;
     color: black;
-
+    padding: 20px;
 }
 
 
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
 
-html, body {
-    overflow-x: hidden;
- }
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .seta-topo {
+        display: none;
+    }
 
 
     .video-topo {
@@ -448,18 +456,23 @@ html, body {
         position: relative;
     }
 
-    .fotos-modalidades {
+
+    .fotos-quem-e-kamilly,
+    .fotos-sobre-nos {
 
         display: flex;
         width: max-content;
+
+    }
+
+    .fotos-modalidades {
+
+        width: 501x;
+        height: 600px;
         
     }
-    
-    .fotos-modalidades img {
 
-        flex-shrink: 0;       
 
- }
 
     .titulo-conheça-kamilly {
 
@@ -473,20 +486,20 @@ html, body {
 
     }
 
-    
+
     .caixa-titulo-sobre-nos {
 
         font-size: 38px;
         margin-top: 50px;
     }
 
-.caixa-contatos-enderecos-redes-sociais-rodape {
+    .caixa-contatos-enderecos-redes-sociais-rodape {
 
         padding: 20px;
         font-size: 20px;
         text-align: center;
         align-items: center;
-        
+
 
     }
 
